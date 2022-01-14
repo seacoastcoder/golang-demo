@@ -1,4 +1,9 @@
 # golang-demo
 
 ## Common Commands
-`go mod edit -replace seacoastcoder.com/greetings=../greetings`
+
+To reference local modules
+`$ go mod edit -replace seacoastcoder.com/greetings=../greetings`
+
+To sync module dependencies
+`$ go mod tidy`
